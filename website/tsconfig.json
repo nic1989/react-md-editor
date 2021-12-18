@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig",
+  "include": ["../src"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "typeRoots": ["./react-app-env.d.ts"]
+  }
+}
